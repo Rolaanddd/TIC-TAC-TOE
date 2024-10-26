@@ -1,0 +1,128 @@
+.box{
+    font-size: 70px;
+    height: 150px;
+    width: 150px;
+     border-radius: 20px;
+    border: none;
+    background-color: rgb(230, 230, 239);
+   margin: 15px;
+   color: #173f5f;
+    justify-content: center;
+    
+    
+}
+.container{
+    align-self: center;
+    border-radius: 15px;
+    display: flex ;
+    flex-wrap: wrap;
+    height: 600px; 
+    gap: 2px; 
+    justify-content: space-between;
+    width: 600px;
+    background-color: #173f5f;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.outside{
+    justify-content: center;
+    display: flex;
+    height: 800px;
+    
+}
+.p1,.p2{
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 30px;
+    width: 380px;
+    height: 750px;
+    background-color: #20639b;
+}
+#x,#o{
+    text-align: center;
+    font-size: 70px;
+}
+.score1,.score2{
+    background-color: #b2dfea;
+    width: 100px;
+    height: 50px;
+    transition: 1.5s;
+    margin-left: 120px;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 50px;
+    color: #20639b;
+    padding-left: 20px;
+}
+
+.head{
+    font-size: 70px;
+    position: absolute;
+    margin-top: 1px;
+    font-family: cursive;
+}
+body{
+    background-color: #3caea3
+
+}
+.horline,.crline{
+    position: absolute;
+    height: 620px;
+    margin: 130px;
+    width: 7px;
+    background-color: black;
+    visibility: hidden;
+    transition: 2s;
+}
+.verline{
+    position: absolute;
+    background-color: black;
+    height: 7px;
+    width: 600px;
+    margin: 225px;
+    visibility: hidden;
+    transition: 2s;
+}
+.ver2{
+    margin: 425px;
+}
+.ver3{
+    margin: 625px;
+}
+.hor2{
+    margin-left: 540px;
+}
+.hor3{
+    margin-right: 540px;
+}
+.cross1{
+     rotate: 45deg;
+     height: 850px;
+     margin-top: 0px;
+}
+.cross2{
+     rotate: 135deg;
+     height: 850px;
+     margin-top: 0px;
+}
+#reset{
+    border: none;
+    border-radius: 20px;
+    padding:9px;
+    position: absolute;
+    margin-left: 680px;
+    width: 160px;
+    height: 75px;
+    font-size: 50px;
+    margin-top: 760px;
+    background-color: #ffede0;
+    
+}
+.seen{
+    visibility: visible;
+    transition: 3s;
+}
+.reseting{
+    visibility: hidden;
+}
