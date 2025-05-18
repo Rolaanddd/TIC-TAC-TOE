@@ -2,6 +2,7 @@
 
 A simple player vs player Tic-Tac-Toe game built with vanilla HTML, CSS, and JavaScript.  
 Features a reset option and displays the winner after each game.
+With scoreboards.
 
 ## Installation
 
